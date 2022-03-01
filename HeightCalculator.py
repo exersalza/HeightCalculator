@@ -15,5 +15,10 @@ ____________________________________________________________
 _(____/___(___(_/___(___ _(___(__/___(___(_(_ __(___/_/_____
 ''')
 
-height = input('Input your Height: ')
-print('Your height is: ', height, 'cm')
+def main() -> int:
+    height = input('Input your Height: ')
+    print('Your height is: ', height, 'cm')
+    
+    
+if __name__ == '__main__':
+    exit(main())
